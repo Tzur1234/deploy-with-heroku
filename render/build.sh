@@ -4,7 +4,7 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-pip install django
+pip install --upgrade pip
 
 pip install -r ./requirements/production.txt
 
